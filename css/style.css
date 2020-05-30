@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+    color: white;
+}
+.cabezera{
+    
+    position:fixed;
+    z-index: 9;
+    background-color: royalblue;
+    height: 89px;
+}
+
+.secciones{
+
+    
+    color: white;
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    left: 10px;
+}
+
+
+body{}
+.azuluno, .azuldos, .azultres, .azulcuatro, .azulcinco{
+    width:100% auto;
+    height: 768px;
+    background-image: linear-gradient(cornflowerblue, white); 
+}
+
+
+/*ubicacion partes*/
+.uno{
+    position:relative;
+    bottom: 3700px;
+}
+
+.dos{
+    position:relative;
+    bottom: 3500px;
+}
+.tres{
+    position:relative;
+    bottom: 3300px;
+}
+.cuatro{
+    position:relative;
+    bottom: 3100px;
+}
+.cinco{
+    position:relative;
+    bottom: 2800px;
+}
+
+/*partes*/
+#a, #c, #b {
+    margin-top: 1rem;
+    background-color: midnightblue;
+    height:250px;
+}
+    #b {
+    
+    background-color: #565DEE;
+       
+    }  
+
+#d, #e {
+    margin-top: 1rem;
+    background-color: red;
+    height:250px;
+}
+#f, #g, #h {
+    margin-top: 1rem;
+    background-color: darkolivegreen;
+    height:250px;
+}
+#g{
+  background-color: seagreen;  
+}
+#i, #l {
+    margin-top: 1rem;
+    background-color: goldenrod;
+    height:250px;
+}
+#m, #n {
+    margin-top: 1rem;
+    background-color: darkslategrey;
+    height:250px;
+    }
+
